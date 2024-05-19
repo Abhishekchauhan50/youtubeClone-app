@@ -1,0 +1,16 @@
+{
+  "name": "youtubeclone",
+  "version": "1.0.0",
+  "description": "a project based on youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "fullstack",
+    "mongoose"
+  ],
+  "author": "abhishek chauhan",
+  "license": "ISC"
+}
