@@ -1,2 +1,5 @@
 node_module/
 .env
+.env
+.gitignore
+node_modules/.bin/color-support.cmd
