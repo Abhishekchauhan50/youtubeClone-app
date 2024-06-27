@@ -14,4 +14,14 @@ app.use(express.urlencoded({extended:true, limit:"16kb"}))
 app.use(express.static('public'))
 app.use(cookieParser())
 
+//routes 
+
+import userRouter from './routes/user.route.js'
+
+
+//routes decleraation
+
+app.use("/users", userRouter)
+
+
 export {app}
